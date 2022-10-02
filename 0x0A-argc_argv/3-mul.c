@@ -13,6 +13,7 @@ int main(int argc, char *argv[])
 {
 	int num1;
 	int num2;
+	int res;
 
 	if (argc == 3)
 	{
