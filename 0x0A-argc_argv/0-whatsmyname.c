@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include "main.h"
+
 /**
  * main prints the name of the file followed a by a new line 
  * and if you rename the program , it wold printits new name 
