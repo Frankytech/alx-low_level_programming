@@ -1,19 +1,15 @@
-#ifndef LIST_H
-#define  LIST_H
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
+#ifndef LISTS_H
+#define LISTS_H
 
 /**
  * struct list_s - singly linked list
- * @str - malloced'd string
- * @len lenght of string
+ * @str: string - (malloc'ed string)
+ * @len: length of the string
  * @next: points to the next node
- *
- * description: all prototypes used in the singly linked directory
- * are contained her and is part of neccesities for a succesfull program compilation
+ * Description: singly linked list node structure
+ * for Holberton project
  */
-typede struct list_S
+typedef struct list_s
 {
 	char *str;
 	unsigned int len;
