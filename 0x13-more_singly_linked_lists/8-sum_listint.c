@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include "lists.h"
 
 /**
  * sum-lisint - calculates the sum of all the data (n) of thye listint_t list 
